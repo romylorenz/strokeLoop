@@ -27,7 +27,7 @@ An initial burn-in phase of four randomly selected tasks was employed, i.e., the
 
 To remove outliers, scrubbing (i.e., data replacement by interpolation) was performed on network time courses with the cut-off set to ± 4 SD. Removal of low-frequency linear drift was achieved by adding a linear trend predictor to the general linear model (GLM). To further correct for motion, confound regressors were added to the GLM consisting of six head motion parameters and a binary regressor flagging motion spikes (defined as TRs for which the framewise displacement exceeded 1.5).
 
-### (3.3) Real-time Bayesian optimization
+### (3.3) Real-time Bayesian optimization loop
 Bayesian optimisation is implemented in **Python**. It consists of a two-stage procedure that repeats iteratively in a closed loop. 
 
 The first stage is the data modeling stage, in which the algorithm uses all available FPN>DMN difference values up to that iteration (*read as text file derived from 3.2*) to predict the subject’s brain response across the entire task space using Gaussian process (GP) regression (Rasmussen and Williams, 2006; Brochu et al., 2010; Shahriari et al., 2016). For GP, we used a zero mean function and the squared exponential kernel (Rasmussen and Williams, 2006), and relied on a Python implementation from: [http://github.com/SheffieldML/GPy]. 
