@@ -1,5 +1,5 @@
 # strokeLoop
-Neuroadaptive Bayesian optimisation for rapidly mapping residual network function in stroke 
+Neuroadaptive Bayesian optimization for rapidly mapping residual network function in stroke 
 
 The paper describing the full study is currently under revision, a preprint is available on bioRxiv: [https://doi.org/10.1101/2020.07.03.186197]
 
