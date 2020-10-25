@@ -35,3 +35,22 @@ The first stage is the data modeling stage, in which the algorithm uses all avai
 The second stage is the guided search stage, in which an acquisition function is used to propose the task the subject will need to perform in the next iteration (*saved as text file that is read by 3.2*). Here we used the upper-confidence bound (GP-UCB) acquisition function (Srinivas et al., 2010) that favours the selection of points with high predicted mean value (i.e., optimal tasks), but equally prefers points with high variance (i.e., tasks worth exploring).
 
 ## References:
+Brochu E, Cora VM, de Freitas N. A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning. 2010
+
+Greve DN, Fischl B. Accurate and robust brain image alignment using boundary-based registration. NeuroImage 2009; 48: 63–72.
+
+Jenkinson M, Bannister P, Brady M, Smith S. Improved optimization for the robust and accurate linear registration and motion correction of brain images. NeuroImage 2002; 17: 825–41.
+
+Jenkinson M, Beckmann CF, Behrens TEJ, Woolrich MW, Smith SM. FSL. NeuroImage 2012; 62: 782–90.
+
+Jenkinson M, Smith S. A global optimisation method for robust affine registration of brain images. Med Image Anal 2001; 5: 143–56.
+
+Rasmussen CE, Williams CKI. Gaussian Processes for Machine Learning. Cambridge, Mass: MIT Press; 2006
+
+Shahriari B, Swersky K, Wang Z, Adams RP, Freitas N de. Taking the Human Out of the Loop: A Review of Bayesian Optimization. Proc IEEE 2016; 104: 148–75.
+
+Smith SM. Fast robust automated brain extraction. Hum Brain Mapp 2002; 17: 143–55.
+
+Srinivas N, Krause A, Seeger M, Kakade SM. Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design. In: Proceedings of the 27th International Conference on Machine Learning. 2010. p. 1015–22
+
+Yeo BTT, Krienen FM, Eickhoff SB, Yaakub SN, Fox PT, Buckner RL, et al. Functional Specialization and Flexibility in Human Association Cortex. Cereb Cortex 2014: bhu217.
