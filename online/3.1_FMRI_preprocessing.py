@@ -5,6 +5,8 @@
 # Incoming EPI images were motion corrected (Jenkinson et al., 2002) in real-time with the previously offline obtained 
 # functional image acting as reference. In addition, images were spatially smoothed using a 5 mm FWHM Gaussian kernel. 
 # For each TR, means of the two brain networks were extracted.
+#
+# Requires FSL 5.0.6
 
 import os
 import numpy as np
