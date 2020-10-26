@@ -1,4 +1,5 @@
 #!/bin/bash
+# Requires FSL 5.0.6
 
 # Specify subjectID (folder)
 subject=$1
