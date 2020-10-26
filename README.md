@@ -25,7 +25,7 @@ After each task block, we ran incremental GLMs in Matlab (in the same script) on
 
 An initial burn-in phase of four randomly selected tasks was employed, i.e., the first GLM was only computed at the end of the fourth block after which the closed-loop experiment commenced and tasks were seleced based on the result of the Bayesian optimisation (*read as text file derived from 3.3*). 
 
-To remove outliers, scrubbing (i.e., data replacement by interpolation) was performed on network time courses with the cut-off set to ± 4 SD. Removal of low-frequency linear drift was achieved by adding a linear trend predictor to the general linear model (GLM). To further correct for motion, confound regressors were added to the GLM consisting of six head motion parameters and a binary regressor flagging motion spikes (defined as TRs for which the framewise displacement exceeded 1.5).
+To remove outliers, scrubbing (i.e., data replacement by interpolation) was performed on network time courses with the cut-off set to ± 4 SD. Removal of low-frequency linear drift was achieved by adding a linear trend predictor to the general linear model (GLM). To further correct for motion, confound regressors were added to the GLM consisting of six head motion parameters and a binary regressor flagging motion spikes (defined as TRs for which the framewise displacement exceeded 3).
 
 ### (3.3) Real-time Bayesian optimization loop
 Bayesian optimisation is implemented in **Python**. It consists of a two-stage procedure that repeats iteratively in a closed loop. 
