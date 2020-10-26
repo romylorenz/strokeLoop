@@ -3,7 +3,7 @@
 # This script does brain extraction of the structural image and registers it to MNI space. 
 # FSLview is used to visualise brain extraction results for inspection.
 # BET parameters could be modified depending on results of brain extraction.
-# Requires FSL 5.0.9
+# Requires FSL 5.0.6
 
 # Specify subjectID (folder)
 subject=subjectXYZ
