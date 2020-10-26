@@ -4,7 +4,7 @@
 # subject's structural image using boundary-based registration. Pre-specified network masks (in MNI space; 
 # multiple masks are expected in a 4D nifti file) are then registered from MNI to the subject's functional space. 
 # FSLview is used to visualise network registration for inspection.  
-# Requires FSL 5.0.9
+# Requires FSL 5.0.6
 
 # Specify subjectID (folder)
 subject=subjectXYZ
