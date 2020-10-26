@@ -23,7 +23,7 @@
 % on the result of the Bayesian optimisation (read as text file derived from 3.3).
 %
 % To remove outliers, scrubbing (i.e., data replacement by interpolation) was performed on network time courses 
-% with the cut-off set to ± 4 SD. Removal of low-frequency linear drift was achieved by adding a linear 
+% with the cut-off set to Â± 4 SD. Removal of low-frequency linear drift was achieved by adding a linear 
 % trend predictor to the general linear model (GLM). To further correct for motion, confound regressors 
 % were added to the GLM consisting of six head motion parameters and a binary regressor flagging motion spikes 
 % (defined as TRs for which the framewise displacement exceeded 3).
@@ -37,8 +37,8 @@ subjectID='subjectXYZ';
 %% Scan info
 burnIn_stimuli=4; % how many stimuli we will need for initializing GP regression
 burnIn_TRs=10; % how many TRs to skip in the beginning to allow for T1 equilibration effects
-numBLOCKs=16; % number of BLOCKs
-nROIs=2; % number of ROIs in text document
+numBLOCKs=16; % number of blocks
+nROIs=2; % number of target networks in text document
 length_TRs=2; %in seconds
 hrf=spm_hrf(length_TRs); %SPM function
 FD_thresh=3; %in mm - define motion outlier threshold
