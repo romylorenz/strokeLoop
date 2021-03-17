@@ -1,7 +1,7 @@
 # strokeLoop
 Neuroadaptive Bayesian optimization for rapidly mapping residual network function in stroke 
 
-The paper describing the full study is currently under revision, a preprint is available on bioRxiv: [https://doi.org/10.1101/2020.07.03.186197]
+The paper describing the full study is published open-access in Brain: [https://doi.org/10.1093/brain/awab109]
 
 ## Notes:
 This repository contains *bash*, *Python* and *Matlab* code for implementing neuroadaptive Bayesian optimisation. Offline and online processing of fMRI data was carried out with FSL (Jenkinson et al., 2012). The repository contains three folders: (1) masks, (2) offline and (3) online. In the following, we detail the content of the folders and the purpose of the respective scripts in these folders. 
